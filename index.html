@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div>
+            <a href="./sub01.html">information</a>|
+            <a href="#">statistics</a>|
+            <a href="#">reservation</a>|
+            <a href="#">goods</a>
+        </div>
+        <div>
+            <button>로그인</button>
+            <button>회원가입</button>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="basic">
+            <h1>SKILLS BASEBALL</h1>
+
+            <div id="slideContainer">
+                <div>
+                    <img src="./img/slide1.png" alt="">
+                    <img src="./img/slide2.png" alt="">
+                    <img src="./img/slide3.png" alt="">
+                    <img src="./img/slide4.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="basic">
+            <h1>INFORMATION</h1>
+
+            <div id="infoContainer">
+                <div>
+                    <img src="./basic/images/38.jpg" alt="">
+                </div>
+                <div id="description">
+                    <p>Skills baseball park는 시민들의 복리증진을 위하여 설치되었으며,</p>
+                    <p>시민들의 건강 및 복지향상과 시민들에게 편리한 시설물 이용을 위한 야구장입니다.</p>
+                    <p>야구를 사랑하며 즐기는 생활체육인들이 모이는 곳</p>
+                    <p>다양한 즐거움과 감동을 선사하는 곳</p>
+                    <p>Skills baseball park</p>
+
+                    <a href="#"><button>infromation 바로가기</button></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="basic">
+            <h1>금일 게임 현황</h1>
+
+            <div id="gameContainer">
+                <div>
+                    <img src="./img/teamWeb.png" alt="">
+                </div>
+                <div>
+                    <h1>5 : 4</h1>
+                </div>
+                <div>
+                    <img src="./img/teamDesign.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="basic">
+            <h1>GAME SCHEDULE</h1>
+
+            <div id="tableContainer">
+                <table>
+                    <tr>
+                        <th>일</th>
+                        <th>월</th>
+                        <th>화</th>
+                        <th>수</th>
+                        <th>목</th>
+                        <th>금</th>
+                        <th>토</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td><a href="#mainModal" id="modalOpen">20</a></td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="mainModal">
+                <div id="modalHead">
+                    <h1>4월 20일</h1>
+                </div>
+                <div id="modalBody">
+                    <img src="./img/baseballPic.png" alt="">
+                    <h1>아직 게임이 없습니다.</h1>
+                </div>
+                <div id="modalFoot">
+                    <a href="#tableContainer"><button>닫기</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic">
+            <h1>RANKING</h1>
+
+            <div id="rankingContainer">
+                <div id="mainLeagueSelect">
+                    <div>
+                        <p>나이트리그</p>
+                            <ul class="dropmenu">
+                                <li><a href="#n1">투수 순위</a></li>
+                                <li><a href="#n2">타자 순위</a></li>
+                            </ul>
+                    </div>
+                    <div>
+                        <p>주말리그</p>
+                            <ul class="dropmenu">
+                                <li><a href="#j1">투수 순위</a></li>
+                                <li><a href="#j2">타자 순위</a></li>
+                            </ul>
+                    </div>
+                    <div>
+                        <p>새벽리그</p>
+                            <ul class="dropmenu">
+                                <li><a href="#s1">투수 순위</a></li>
+                                <li><a href="#s2">타자 순위</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div id="leagueDetail">
+                    <div id="n1">
+                        <ul>
+                            <li><p>1. 나일투</p></li>
+                            <li><p>2. 나이투</p></li>
+                            <li><p>3. 나삼투</p></li>
+                            <li><p>4. 나사투</p></li>
+                            <li><p>5. 나오투</p></li>
+                            <li><p>6. 나육투</p></li>
+                            <li><p>7. 나찰투</p></li>
+                        </ul>
+                    </div>
+                    <div id="n2">
+                        <ul>
+                            <li><p>1. 나일타</p></li>
+                            <li><p>2. 나이타</p></li>
+                            <li><p>3. 나삼타</p></li>
+                            <li><p>4. 나사타</p></li>
+                            <li><p>5. 나오타</p></li>
+                            <li><p>6. 나육타</p></li>
+                            <li><p>7. 나칠타</p></li>
+                        </ul>
+                    </div>
+                    <div id="j1">
+                        <ul>
+                            <li><p>1. 주일투</p></li>
+                            <li><p>2. 주이투</p></li>
+                            <li><p>3. 주삼투</p></li>
+                            <li><p>4. 주사투</p></li>
+                            <li><p>5. 주오투</p></li>
+                            <li><p>6. 주육투</p></li>
+                            <li><p>7. 주찰투</p></li>
+                        </ul>
+                    </div>
+                    <div id="j2">
+                        <ul>
+                            <li><p>1. 주일타</p></li>
+                            <li><p>2. 주이타</p></li>
+                            <li><p>3. 주삼타</p></li>
+                            <li><p>4. 주사타</p></li>
+                            <li><p>5. 주오타</p></li>
+                            <li><p>6. 주육타</p></li>
+                            <li><p>7. 주칠타</p></li>
+                        </ul>
+                    </div>
+                    <div id="s1">
+                        <ul>
+                            <li><p>1. 새일투</p></li>
+                            <li><p>2. 새이투</p></li>
+                            <li><p>3. 새삼투</p></li>
+                            <li><p>4. 새사투</p></li>
+                            <li><p>5. 새오투</p></li>
+                            <li><p>6. 새육투</p></li>
+                            <li><p>7. 새찰투</p></li>
+                        </ul>
+                    </div>
+                    <div id="s2">
+                        <ul>
+                            <li><p>1. 새일타</p></li>
+                            <li><p>2. 새이타</p></li>
+                            <li><p>3. 새삼타</p></li>
+                            <li><p>4. 새사타</p></li>
+                            <li><p>5. 새오타</p></li>
+                            <li><p>6. 새육타</p></li>
+                            <li><p>7. 새칠타</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic">
+            <h1>주요 부문</h1>
+
+            <div id="primaryContainer">
+                <div class="pContent">
+                    <div>
+                        <h1><a href="#p1">- 타율</a></h1>
+                    </div>
+                    <div id="p1">
+                        <table>
+                            <tr>
+                                <td>1위</td>
+                                <td>일타율</td>
+                            </tr>
+                            <tr>
+                                <td>2위</td>
+                                <td>이타율</td>
+                            </tr>
+                            <tr>
+                                <td>3위</td>
+                                <td>삼타율</td>
+                            </tr>
+                            <tr>
+                                <td>4위</td>
+                                <td>사타율</td>
+                            </tr>
+                            <tr>
+                                <td>5위</td>
+                                <td>오타율</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pContent">
+                    <div>
+                        <h1><a href="#p2">- 홈런</a></h1>
+                    </div>
+                    <div id="p2">
+                        <table>
+                            <tr>
+                                <td>1위</td>
+                                <td>일홈런</td>
+                            </tr>
+                            <tr>
+                                <td>2위</td>
+                                <td>이홈런</td>
+                            </tr>
+                            <tr>
+                                <td>3위</td>
+                                <td>삼홈런</td>
+                            </tr>
+                            <tr>
+                                <td>4위</td>
+                                <td>사홈런</td>
+                            </tr>
+                            <tr>
+                                <td>5위</td>
+                                <td>오홈런</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pContent">
+                    <div>
+                        <h1><a href="#p3">- 다승</a></h1>
+                    </div>
+                    <div id="p3">
+                        <table>
+                            <tr>
+                                <td>1위</td>
+                                <td>일다승</td>
+                            </tr>
+                            <tr>
+                                <td>2위</td>
+                                <td>이다승</td>
+                            </tr>
+                            <tr>
+                                <td>3위</td>
+                                <td>삼다승</td>
+                            </tr>
+                            <tr>
+                                <td>4위</td>
+                                <td>사다승</td>
+                            </tr>
+                            <tr>
+                                <td>5위</td>
+                                <td>오다승</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pContent">
+                    <div>
+                        <h1><a href="#p4">- 평균자책</a></h1>
+                    </div>
+                    <div id="p4">
+                        <table>
+                            <tr>
+                                <td>1위</td>
+                                <td>일평자</td>
+                            </tr>
+                            <tr>
+                                <td>2위</td>
+                                <td>이평자</td>
+                            </tr>
+                            <tr>
+                                <td>3위</td>
+                                <td>삼평자</td>
+                            </tr>
+                            <tr>
+                                <td>4위</td>
+                                <td>사평자</td>
+                            </tr>
+                            <tr>
+                                <td>5위</td>
+                                <td>오평자</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pContent">
+                    <div>
+                        <h1><a href="#p5">- 탈삼진</a></h1>
+                    </div>
+                    <div id="p5">
+                        <table>
+                            <tr>
+                                <td>1위</td>
+                                <td>일삼진</td>
+                            </tr>
+                            <tr>
+                                <td>2위</td>
+                                <td>이삼진</td>
+                            </tr>
+                            <tr>
+                                <td>3위</td>
+                                <td>삼삼진</td>
+                            </tr>
+                            <tr>
+                                <td>4위</td>
+                                <td>사삼진</td>
+                            </tr>
+                            <tr>
+                                <td>5위</td>
+                                <td>오삼진</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="pContent">
+                    <div>
+                        <h1><a href="#p6">- 세이브</a></h1>
+                    </div>
+                    <div id="p6">
+                        <table>
+                            <tr>
+                                <td>1위</td>
+                                <td>일세이</td>
+                            </tr>
+                            <tr>
+                                <td>2위</td>
+                                <td>이세이</td>
+                            </tr>
+                            <tr>
+                                <td>3위</td>
+                                <td>삼세이</td>
+                            </tr>
+                            <tr>
+                                <td>4위</td>
+                                <td>사세이</td>
+                            </tr>
+                            <tr>
+                                <td>5위</td>
+                                <td>오세이</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic">
+            <h1>GALLARY</h1>
+            <div id="gallaryContainer">
+                <input type="radio" name="gallaryS" id="one" checked>
+                <input type="radio" name="gallaryS" id="two">
+                <input type="radio" name="gallaryS" id="three">
+                <input type="radio" name="gallaryS" id="four">
+                <input type="radio" name="gallaryS" id="five">
+                <input type="radio" name="gallaryS" id="six">
+                <button id="oneb"><label for="one">></label></button>
+                <button id="twob"><label for="two">></label></button>
+                <button id="threeb"><label for="three">></label></button>
+                <button id="fourb"><label for="four">></label></button>
+                <button id="fiveb"><label for="five"><</label></button>
+                <div id="gallary">
+                    <div class="text">
+    
+                    </div>
+                    <div class="text">
+                        
+                    </div>
+                    <div>
+                        <img src="./basic/images/01.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./basic/images/02.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./basic/images/03.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./basic/images/04.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./basic/images/05.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./basic/images/06.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="basic">
+            <h1>GOODS</h1>
+
+            <div id="goodsContainer">
+                <img src="./basic/images/01.jpg" alt="">
+                <img src="./basic/images/01.jpg" alt="">
+                <img src="./basic/images/01.jpg" alt="">
+                <img src="./basic/images/01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="./img/logo.png" alt="">
+        <p>Copyrightⓒ Skills baseball park. All rights reserved.</p>
+        <p>Call: 142-3677</p>
+        <p>Email: help@skillsbaseballpark.com</p>
+        <p>Address: (12345) 서울특별서 중구 중북로 71</p>
+    </footer>
+</body>
+</html>
